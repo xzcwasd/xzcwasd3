@@ -934,7 +934,7 @@ function qiwiHandler(e){
 
 function qiwiFormHandle(){
 	var qiwi_comment = document.getElementById('qiwi-donation-comment');
-	qiwi_comment.value = "Автоматическое пополнение через QIWI FADE RUST Аккаунт " + CustomerSteamId;
+	qiwi_comment.value = "Пополнение через QIWI для FADE RUST аккаунта. Может занять некоторое время. Ваш ID: " + CustomerSteamId;
 	document.getElementById('qiwi-donation-account').value = CustomerSteamId;
 	document.getElementById('qiwi-inp-other').setAttribute("href", OvhPayUrl);
 }
